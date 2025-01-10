@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Default styles */
+body{
+    background-color: whitesmoke;
+    font-family: fira sans;
+}
+
+
+/* Shared Style */
+.dark-primary{
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.btn-primary{
+    background-color: #006A50;
+    padding: 17px 34px 17px 34px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    border: none;
+}
+
+/* Navbar styles */
+
+nav > ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 160px;
+}
+
+nav > ul > li{
+    list-style: none;
+}
+
+.nav-anchor{
+    text-decoration: none;
+    color: #006A50;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    
+}
+
+.nav-btn{
+    border: 1px solid #C6E4D6;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.nav-title{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+}
+
+/* Hero section's styles */
+
+.hero{
+    background-color: #C6E4D6;
+    margin: 30px 160px 50px 160px;
+    border-radius: 10px;
+}
+
+.hero-container{
+    display: flex;
+    padding: 80px 100px;
+    gap: 16px;
+
+}
+
+.hero-sub-title{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.hero-title{
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 10px;
+}
+
+/* Pillars item styles */
+
+.pillars{
+    margin: 80px 160px 30px 160px;
+}
+
+.pillar-container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+    
+}
+
+.pillar-title{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.pillar-item{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.pillar-item-title{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.pillar-item-descrription{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
