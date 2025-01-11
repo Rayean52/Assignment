@@ -1,18 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /* Default styles */
-body{
+body {
     background-color: whitesmoke;
     font-family: fira sans;
+}
+
+hr {
+    color: rgba(14, 14, 14, 0.1);
 }
 
 
 /* Shared Style */
 
-.dark-primary{
+.dark-primary {
     color: rgba(14, 14, 14, 0.7);
 }
 
-.btn-primary{
+.btn-primary {
     background-color: #006A50;
     padding: 17px 34px 17px 34px;
     color: rgb(255, 255, 255);
@@ -24,47 +29,47 @@ body{
     border: none;
 }
 
-button:hover{
-    background-color:  lightgray;
+button:hover {
+    background-color: lightgray;
     color: black;
     box-shadow: 5px 8px 15px #9AA6B2;
 }
 
-.box-shadow{
+.box-shadow {
     box-shadow: 1px 1px 1px #9AA6B2;
 }
 
 
 /* Navbar styles */
 
-nav > ul{
+nav>ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 30px 160px;
 }
 
-nav > ul > li{
+nav>ul>li {
     list-style: none;
 }
 
-.nav-anchor{
+.nav-anchor {
     text-decoration: none;
     color: #006A50;
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
     letter-spacing: 0%;
-    
+
 }
 
-.nav-btn{
+.nav-btn {
     border: 1px solid #C6E4D6;
     padding: 10px 15px;
     border-radius: 5px;
 }
 
-.nav-title{
+.nav-title {
     font-size: 32px;
     font-weight: 700;
     text-align: left;
@@ -72,20 +77,20 @@ nav > ul > li{
 
 /* Hero section's styles */
 
-.hero{
+.hero {
     background-color: #C6E4D6;
     margin: 30px 160px 50px 160px;
     border-radius: 10px;
 }
 
-.hero-container{
+.hero-container {
     display: flex;
     padding: 80px 100px;
     gap: 16px;
 
 }
 
-.hero-sub-title{
+.hero-sub-title {
     font-size: 24px;
     font-weight: 500;
     line-height: 29px;
@@ -94,7 +99,7 @@ nav > ul > li{
     margin-bottom: 0;
 }
 
-.hero-title{
+.hero-title {
     font-size: 58px;
     font-weight: 700;
     line-height: 67px;
@@ -105,18 +110,18 @@ nav > ul > li{
 
 /* Pillars item styles */
 
-.pillars{
+.pillars {
     margin: 80px 160px 30px 160px;
 }
 
-.pillar-container{
+.pillar-container {
     display: flex;
     justify-content: space-evenly;
     gap: 24px;
-    
+
 }
 
-.pillar-title{
+.pillar-title {
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
@@ -125,20 +130,20 @@ nav > ul > li{
 
 }
 
-.pillar-item{
+.pillar-item {
     background-color: rgb(255, 255, 255);
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     padding: 24px;
 }
 
-.pillar-item-title{
+.pillar-item-title {
     font-size: 20px;
     font-weight: 700;
     text-align: left;
 }
 
-.pillar-item-descrription{
+.pillar-item-descrription {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -148,17 +153,17 @@ nav > ul > li{
 
 /* Vision sections styles */
 
-.vision{
+.vision {
     padding: 70px 160px 50px 160px;
 }
 
-.vision-title{
+.vision-title {
     font-size: 40px;
     font-weight: 700;
     text-align: left;
 }
 
-.vision-description{
+.vision-description {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -166,14 +171,14 @@ nav > ul > li{
     text-align: left;
 }
 
-.vision-item-container{
+.vision-item-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 18px;
 }
 
-.vision-item{
+.vision-item {
     width: 410px;
     height: 325px;
     border-radius: 10px;
@@ -181,7 +186,7 @@ nav > ul > li{
 
 }
 
-.vision-item-title{
+.vision-item-title {
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
@@ -189,7 +194,7 @@ nav > ul > li{
     margin: 10px 0;
 }
 
-.vision-item-description{
+.vision-item-description {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -198,24 +203,24 @@ nav > ul > li{
     margin: 10px 0;
 }
 
-.vision-image{
+.vision-image {
     width: 60px;
     margin: 15px 0;
 }
 
-.first-item{
+.first-item {
     background-color: rgba(84, 144, 245, 0.2);
 }
 
-.second-item{
+.second-item {
     background-color: rgb(198, 228, 214);
 }
 
-.third-item{
+.third-item {
     background-color: rgb(247, 235, 207);
 }
 
-.btn-first{
+.btn-first {
     background-color: rgb(84, 144, 245);
     padding: 17px 34px 17px 34px;
     color: rgb(255, 255, 255);
@@ -226,10 +231,10 @@ nav > ul > li{
     border-radius: 8px;
     border: none;
     margin-top: 50px;
-    
+
 }
 
-.btn-second{
+.btn-second {
     background-color: #006A50;
     padding: 17px 34px 17px 34px;
     color: rgb(255, 255, 255);
@@ -242,7 +247,7 @@ nav > ul > li{
     margin-top: 50px;
 }
 
-.btn-third{
+.btn-third {
     background-color: rgb(255, 194, 57);
     padding: 17px 34px 17px 34px;
     color: rgb(255, 255, 255);
@@ -257,7 +262,7 @@ nav > ul > li{
 
 
 /* Challenge part styles */
-.dr_younus{
+.dr_younus {
     background-image: url("/Assets/quote-bg.png");
     background-position: 25px 50px;
     background-repeat: no-repeat;
@@ -268,21 +273,21 @@ nav > ul > li{
     padding: 48px 25px;
 }
 
-.dr_younus-descrition{
+.dr_younus-descrition {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
 }
 
-.dr_younus-name{
+.dr_younus-name {
     font-size: 20px;
     font-weight: 600;
     text-align: left;
     margin-bottom: 0;
 }
 
-.dr_younus-title{
+.dr_younus-title {
     font-size: 16px;
     font-weight: 400;
     text-align: left;
@@ -291,42 +296,42 @@ nav > ul > li{
 
 /* Opinion section styles */
 
-.opinion{
+.opinion {
     padding: 30px 160px;
 }
 
-.opinion-structure{
+.opinion-structure {
     background-color: rgb(255, 255, 255);
     padding: 32px;
     border-radius: 16px;
 }
 
-.opinion-title{
+.opinion-title {
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
     text-align: left;
 }
 
-.opinion-selector{
+.opinion-selector {
     text-align: center;
 }
 
-select{
+select {
     background-color: rgb(198, 228, 214);
     padding: 10px;
     border-radius: 3px;
-    
+
 }
 
-table{
-    border: 1px solid rgba(14, 14, 14, 0.15) ;
+table {
+    border: 1px solid rgba(14, 14, 14, 0.15);
     border-collapse: collapse;
     width: 100%;
 }
 
-td{
-    border: 1px solid rgba(14, 14, 14, 0.15) ;
+td {
+    border: 1px solid rgba(14, 14, 14, 0.15);
     padding: 24px;
     font-size: 16px;
     font-weight: 600;
@@ -334,12 +339,12 @@ td{
     text-align: left;
 }
 
-thead{
+thead {
     background-color: rgb(198, 228, 214);
-    
+
 }
 
-th{
+th {
     text-align: left;
     padding: 24px;
     font-size: 20px;
@@ -350,18 +355,18 @@ th{
 
 /* News section styles */
 
-.news{
+.news {
     padding: 50px 160px;
 }
 
-.news-title{
+.news-title {
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
     text-align: left;
 }
 
-.news-description{
+.news-description {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -369,7 +374,7 @@ th{
     text-align: left;
 }
 
-.news-item{
+.news-item {
     display: flex;
     align-items: center;
     border-radius: 16px;
@@ -379,68 +384,68 @@ th{
 
 }
 
-.news-item-title{
+.news-item-title {
     font-size: 32px;
     font-weight: 700;
     text-align: left;
     line-height: 0%;
 }
 
-.news-image{
+.news-image {
     width: 410px;
     height: 308px;
     border-radius: 16px;
 }
 
-.news-time{
+.news-time {
     margin: 0px 15px;
 }
 
-.news-logo-image{
+.news-logo-image {
     width: 65px;
     height: 50px;
     line-height: 0%;
 }
 
-.news-channel-container{
+.news-channel-container {
     display: flex;
     align-items: center;
     gap: 5px;
     line-height: 0%;
 }
 
-.news-content-container{
+.news-content-container {
     margin: 0px 32px;
 }
 
 /* Donate section styles */
 
-.donate{
+.donate {
     padding: 0px 160px;
 }
 
-.donate-title{
+.donate-title {
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
     text-align: center;
 }
 
-.donate-description{
+.donate-description {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     text-align: center;
 }
 
-.donate-button-container{
+.donate-button-container {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     gap: 24px;
 }
 
-.donate-amount{
+.donate-amount {
     background-color: rgb(255, 255, 255);
     border: 1px solid rgba(14, 14, 14, 0.15);
     padding: 40px;
@@ -452,7 +457,7 @@ th{
     border-radius: 16px;
 }
 
-.donate-input-field{
+.donate-input-field {
     width: 1000px;
     text-align: center;
     margin: 32px 124px;
@@ -461,35 +466,35 @@ th{
     border-radius: 2px;
 }
 
-.donate-item-container{
+.donate-item-container {
     margin: 50px 124px;
     text-align: center;
 }
 
-#donate-special{
+#donate-special {
     background-color: rgb(198, 228, 214);
 }
 
 
 /* Subscribe-section-container */
-.subscribe{
+.subscribe {
     background-color: rgb(198, 228, 214);
-    margin: 32px 160px;
+    margin: 50px 160px;
     text-align: center;
-    border-radius: 16px;  
+    border-radius: 16px;
 }
 
-.subscribe-container{
+.subscribe-container {
     padding: 50px 100px;
 }
 
-.subscribe-title{
+.subscribe-title {
     font-size: 40px;
     font-weight: 700;
     text-align: center;
 }
 
-.subscribe-btn{
+.subscribe-btn {
     background-color: #006A50;
     padding: 18px 40px 18px 40px;
     color: rgb(255, 255, 255);
@@ -501,13 +506,13 @@ th{
     border-bottom-right-radius: 5px;
 }
 
-.subscribe-description{
+.subscribe-description {
     font-size: 16px;
     font-weight: 400;
     text-align: center;
 }
 
-.subscribe-input-field{
+.subscribe-input-field {
     width: 600px;
     padding: 18px 40px 18px 40px;
     border: none;
@@ -516,24 +521,34 @@ th{
     border-bottom-left-radius: 5px;
 }
 
-.input-container{
+.input-container {
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 5px;
 }
 
-.footer{
+
+/* Footer section styles */
+.footer {
     background-color: rgb(255, 255, 255);
 }
-.footer-container{
+
+.footer-container {
     text-align: center;
     padding: 50px 160px;
 }
 
-.footer-title{
+.footer-title {
     font-size: 32px;
     font-weight: 700;
     line-height: 38px;
     text-align: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
