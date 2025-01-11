@@ -249,12 +249,13 @@ button:hover{
     box-shadow: 5px 8px 15px black;
 }
 
+/* Challenge part styles */
 .dr_younus{
     background-image: url("/Assets/quote-bg.png");
     background-position: 25px 50px;
     background-repeat: no-repeat;
     background-color: rgb(255, 255, 255);
-    border: 1px solid rgba(14, 14, 14, 0.7);
+    border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 10px;
     margin: 32px 0;
     padding: 48px 25px;
@@ -279,4 +280,62 @@ button:hover{
     font-weight: 400;
     text-align: left;
     margin-top: 0;
+}
+
+/* Opinion section styles */
+
+.opinion{
+    padding: 30px 160px;
+}
+
+.opinion-structure{
+    background-color: rgb(255, 255, 255);
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.opinion-title{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+}
+
+.opinion-selector{
+    text-align: center;
+}
+
+select{
+    background-color: rgb(198, 228, 214);
+    padding: 10px;
+    border-radius: 3px;
+    
+}
+
+table{
+    border: 1px solid rgba(14, 14, 14, 0.15) ;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td{
+    border: 1px solid rgba(14, 14, 14, 0.15) ;
+    padding: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: left;
+}
+
+thead{
+    background-color: rgb(198, 228, 214);
+    
+}
+
+th{
+    text-align: left;
+    padding: 24px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
 }
