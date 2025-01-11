@@ -339,3 +339,69 @@ th{
     font-weight: 600;
     line-height: 24px;
 }
+
+
+/* News section styles */
+
+.news{
+    padding: 50px 160px;
+}
+
+.news-title{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+}
+
+.news-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.news-item{
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+    padding: 40px;
+    background-color: rgb(255, 255, 255);
+    margin: 24px 0px;
+
+}
+
+.news-item-title{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 0%;
+}
+
+.news-image{
+    width: 410px;
+    height: 308px;
+    border-radius: 16px;
+}
+
+.news-time{
+    margin: 0px 15px;
+}
+
+.news-logo-image{
+    width: 65px;
+    height: 50px;
+    line-height: 0%;
+}
+
+.news-channel-container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    line-height: 0%;
+}
+
+.news-content-container{
+    margin: 0px 32px;
+}
