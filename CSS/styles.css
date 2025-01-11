@@ -25,7 +25,7 @@ body{
 }
 
 button:hover{
-    background-color:  rgb(198, 228, 214);
+    background-color:  lightgray;
     color: black;
     box-shadow: 5px 8px 15px #9AA6B2;
 }
@@ -521,4 +521,19 @@ th{
     align-items: center;
     justify-content: center;
     border-radius: 5px;
+}
+
+.footer{
+    background-color: rgb(255, 255, 255);
+}
+.footer-container{
+    text-align: center;
+    padding: 50px 160px;
+}
+
+.footer-title{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: center;
 }
