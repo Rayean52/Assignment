@@ -7,6 +7,7 @@ body{
 
 
 /* Shared Style */
+
 .dark-primary{
     color: rgba(14, 14, 14, 0.7);
 }
@@ -22,6 +23,17 @@ body{
     border-radius: 8px;
     border: none;
 }
+
+button:hover{
+    background-color:  rgb(198, 228, 214);
+    color: black;
+    box-shadow: 5px 8px 15px #9AA6B2;
+}
+
+.box-shadow{
+    box-shadow: 1px 1px 1px #9AA6B2;
+}
+
 
 /* Navbar styles */
 
@@ -243,11 +255,6 @@ nav > ul > li{
     margin-top: 50px;
 }
 
-button:hover{
-    background-color:  #F4FFC3;
-    color: black;
-    box-shadow: 5px 8px 15px black;
-}
 
 /* Challenge part styles */
 .dr_younus{
@@ -405,3 +412,61 @@ th{
 .news-content-container{
     margin: 0px 32px;
 }
+
+/* Donate section styles */
+
+.donate{
+    padding: 0px 160px;
+}
+
+.donate-title{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+}
+
+.donate-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.donate-button-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 24px;
+}
+
+.donate-amount{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 40px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 16px;
+}
+
+.donate-input-field{
+    width: 1000px;
+    text-align: center;
+    margin: 32px 124px;
+    padding: 20px 40px 20px 40px;
+    border: none;
+    border-radius: 2px;
+}
+
+.donate-item-container{
+    margin: 50px 124px;
+    text-align: center;
+}
+
+#donate-special{
+    background-color: rgb(198, 228, 214);
+}
+
